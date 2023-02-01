@@ -1,0 +1,64 @@
+{
+  "name": "rentacarpanel",
+  "version": "0.0.1",
+  "description": "Neareast Technology Rent A Car Panel",
+  "productName": "Rent A Car Panel",
+  "author": "Vepa Mirzayev <56221612+vepamirzayev@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.4",
+    "@quasar/cli": "^2.0.0",
+    "@quasar/extras": "^1.0.0",
+    "@quasar/icongenie": "^2.5.4",
+    "@sideway/address": "^5.0.0",
+    "@sideway/formula": "^3.0.1",
+    "@sideway/pinpoint": "^2.0.0",
+    "axios": "^0.21.1",
+    "chart.js": "^3.7.1",
+    "core-js": "^3.6.5",
+    "fs": "^0.0.1-security",
+    "joi": "^17.7.0",
+    "quasar": "^2.0.0",
+    "readline": "^1.3.0",
+    "update-electron-app": "^2.0.1",
+    "util": "^0.12.4",
+    "vue": "^3.2.40",
+    "vue-i18n": "^9.0.0",
+    "vue-paycard": "^0.7.0",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.0.0",
+    "electron": "^17.0.0",
+    "electron-builder": "^23.0.3",
+    "electron-packager": "^15.4.0",
+    "electron-winstaller": "^5.0.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "vue-drawing-canvas": "^1.0.9"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
